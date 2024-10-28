@@ -1,0 +1,120 @@
+h1, h2, h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 25px;
+}
+
+a {
+    color: darkblue;
+    text-decoration: none;
+}
+
+a:hover {
+    color: cornflowerblue;
+    text-decoration: underline;
+}
+
+nav {
+    width: auto;
+    height: 20px;
+    background-color: floralwhite;
+    /* padding: 20px 10px 15px 25px; */
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-style: italic;
+}
+
+nav a {
+    color: #000000;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: navy;
+    text-decoration: overline;
+}
+
+.header {
+    width: auto;
+    height: auto;
+    background-color: ivory;
+    color: #635a5a;
+    padding: 10px 5px 10px 50px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: oblique;
+    font-size: 45px;
+}
+
+.footer {
+    width: auto;
+    height: auto;
+    padding: 5px 5px 5px 5px;
+    text-align: center;
+    background-color: floralwhite;
+}
+
+.topbox {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.box {
+    float: left;
+    width: 32%;
+    padding: 3px;
+}
+
+.box2 {
+    float: left;
+    width: 48%;
+    padding: 3px;
+}
+
+#article1 {
+    border: 5px dotted rgb(152, 237, 152);
+    background-color: aliceblue;
+    padding: 5px 10px 5px 15px;
+    margin: 5px 5px 5px 5px;
+}
+
+#article2 {
+    border: 5px solid rgb(126, 126, 246);
+    background-color: azure;
+    padding: 5px 10px 5px 15px;
+    margin: 5px 5px 5px 5px;
+}
+
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    background-color: ghostwhite;
+}
+
+.flex-container > div {
+    background-color: honeydew;
+    padding: 5px;
+    margin: 2px;
+    border: 3px dotted black;
+}
+
+.flex-container1 {
+    display: flex;
+    height: 300px;
+    flex-direction: row;
+    padding: 10px;
+    background-color: cornflowerblue;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.flex-container1 > div {
+    height: 8%;
+    background-color: ivory;
+    padding: 5px;
+    margin: 2px;
+    border: 3px dotted blue;
+}
